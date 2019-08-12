@@ -1,0 +1,92 @@
+{
+  "menu": [
+    {
+      "key": "1",
+      "name": "Dashboard",
+      "icon": "dashboard",
+      "path": "/"
+    },
+    {
+      "key": "2",
+      "name": "Configuration",
+      "icon": "configuration",
+      "path": "/",
+      "children": [
+        {
+          "key": "1",
+          "name": "Employee",
+          "icon": "",
+          "path": "/employees"
+        },
+        {
+          "key": "2",
+          "name": "Position",
+          "icon": "",
+          "path": "/positions"
+        },
+        {
+          "key": "3",
+          "name": "Department",
+          "icon": "",
+          "path": "/departments"
+        },
+        {
+          "key": "4",
+          "name": "Model",
+          "icon": "",
+          "path": "/models"
+        }
+      ]
+    },
+    {
+      "key": "3",
+      "name": "Machine",
+      "icon": "machine",
+      "path": "/machines"
+    },
+    {
+      "key": "4",
+      "name": "Complain",
+      "icon": "complain",
+      "path": "/complains"
+    },
+    {
+      "key": "5",
+      "name": "Assign To Schedule",
+      "icon": "assignToSchedule",
+      "path": "/assigntoschedule"
+    },
+    {
+      "key": "6",
+      "name": "Schedule",
+      "icon": "schedule",
+      "path": "/schedule"
+    },
+    {
+      "key": "7",
+      "name": "User Management",
+      "icon": "usermanagement",
+      "path": "/",
+      "children": [
+        {
+          "key": "1",
+          "name": "Account",
+          "icon": "",
+          "path": "/account"
+        },
+        {
+          "key": "2",
+          "name": "Module",
+          "icon": "",
+          "path": "/module"
+        },
+        {
+          "key": "3",
+          "name": "Role",
+          "icon": "",
+          "path": "/role"
+        }
+      ]
+    }
+  ]
+}

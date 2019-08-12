@@ -1,0 +1,101 @@
+export const SIGN_IN = "SIGN_IN";
+export const SIGN_OUT = "SIGN_OUT";
+export const SIGN_UP = "SIGN_UP";
+export const CURRENT_USER = "CURRENT_USER";
+export const CREATE_STREAM = "CREATE_STREAM";
+export const FETCH_STREAMS = "FETCH_STREAMS";
+export const FETCH_STREAM = "FETCH_STREAM";
+export const DELETE_STREAM = "DELETE_STREAM";
+export const EDIT_STREAM = "EDIT_STREAM";
+export const LOCALE_SET = "LOCALE_SET";
+
+//Loading
+export const LOADING = "LOADING";
+
+// Employee
+export const CREATE_EMPLOYEE = "CREATE_EMPLOYEE";
+export const FETCH_EMPLOYEES = "FETCH_EMPLOYEES";
+export const FETCH_EMPLOYEE = "FETCH_POSITION";
+export const DELETE_EMPLOYEE = "DELETE_EMPLOYEE";
+export const EDIT_EMPLOYEE = "EDIT_EMPLOYEE";
+
+//Position
+
+export const CREATE_POSITION = "CREATE_POSITION";
+export const FETCH_POSITIONS = "FETCH_POSITIONS";
+export const FETCH_POSITION = "FETCH_POSITION";
+export const DELETE_POSITION = "DELETE_POSITION";
+export const EDIT_POSITION = "EDIT_POSITION";
+
+// Department
+export const CREATE_DEPARTMENT = "CREATE_DEPARTMENT";
+export const FETCH_DEPARTMENTS = "FETCH_DEPARTMENTS";
+export const FETCH_DEPARTMENT = "FETCH_DEPARTMENT";
+export const DELETE_DEPARTMENT = "DELETE_DEPARTMENT";
+export const EDIT_DEPARTMENT = "EDIT_DEPARTMENT";
+
+// Model
+export const CREATE_MODEL = "CREATE_MODEL";
+export const FETCH_MODELS = "FETCH_MODELS";
+export const FETCH_MODEL = "FETCH_MODEL";
+export const EDIT_MODEL = "EDIT_MODEL";
+export const DELETE_MODEL = "DELETE_MODEL";
+
+//Machine
+export const CREATE_MACHINE = "CREATE_MACHINE";
+export const FETCH_MACHINES = "FETCH_MACHINES";
+export const FETCH_MACHINE = "FETCH_MACHINE";
+export const EDIT_MACHINE = "EDIT_MACHINE";
+export const DELETE_MACHINE = "DELETE_MACHINE";
+
+// Complain
+
+export const CREATE_COMPLAIN = "CREATE_COMPLAIN";
+export const FETCH_COMPLAINS = "FETCH_COMPLAINS";
+export const FETCH_COMPLAIN = "FETCH_COMPLAIN";
+export const DELETE_COMPLAIN = "DELETE_COMPLAIN";
+export const EDIT_COMPLAIN = "EDIT_COMPLAIN";
+
+// Schedule
+
+export const CREATE_SCHEDULE = "CREATE_SCHEDULE";
+export const FETCH_SCHEDULES = "FETCH_SCHEDULES";
+export const FETCH_SCHEDULE = "FETCH_SCHEDULE";
+export const DELETE_SCHEDULE = "DELETE_SCHEDULE";
+export const EDIT_SCHEDULE = "EDIT_SCHEDULE";
+
+// Schedule
+
+export const CREATE_SERVICE_MAN = "CREATE_SERVICE_MAN";
+export const FETCH_SERVICE_MEN = "FETCH_SERVICE_MEN";
+export const FETCH_SERVICE_MAN = "FETCH_SERVICE_MAN";
+export const DELETE_SERCICE_MAN = "DELETE_SERCICE_MAN";
+export const EDIT_SERVICE_MAN = "EDIT_SERVICE_MAN";
+
+// Daily Report
+export const CREATE_DAILY_REPORT = "CREATE_DAILY_REPORT";
+export const FETCH_DAILY_REPORTS = "FETCH_DAILY_REPORTS";
+export const FETCH_DAILY_REPORT = "FETCH_DAILY_REPORT";
+export const DELETE_DAILY_REPORT = "DELETE_DAILY_REPORT";
+export const EDIT_DAILY_REPORT = "EDIT_DAILY_REPORT";
+
+// Account
+export const CREATE_USER_ACCOUNT = "CREATE_USER_ACCOUNT";
+export const FETCH_USER_ACCOUNTS = "FETCH_USER_ACCOUNTS";
+export const FETCH_USER_ACCOUNT = "FETCH_USER_ACCOUNT";
+export const DELETE_USER_ACCOUNT = "DELETE_USER_ACCOUNT";
+export const EDIT_USER_ACCOUNT = "EDIT_USER_ACCOUNT";
+
+// Module
+export const CREATE_MODULE = "CREATE_MODULE";
+export const FETCH_MODULES = "FETCH_MODULES";
+export const FETCH_MODULE = "FETCH_MODULE";
+export const DELETE_MODULE = "DELETE_MODULE";
+export const EDIT_MODULE = "EDIT_MODULE";
+
+// Role
+export const CREATE_ROLE = "CREATE_ROLE";
+export const FETCH_ROLES = "FETCH_ROLES";
+export const FETCH_ROLE = "FETCH_ROLE";
+export const DELETE_ROLE = "DELETE_ROLE";
+export const EDIT_ROLE = "EDIT_ROLE";

@@ -1,0 +1,143 @@
+@import "../../themes/var.less";
+
+.loginContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: #beb6b6;
+  // background: #666666;
+  // background: #9053c7;
+  // background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+  // background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
+  // background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
+  // background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+.form {
+  position: absolute;
+  border-radius: 10px;
+  top: 35%;
+  left: 38%;
+  margin: -160px 0 0 -160px;
+  width: 700px;
+  height: 520px;
+  padding: 36px;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+
+  button {
+    width: 100%;
+  }
+
+  p {
+    color: rgb(204, 204, 204);
+    text-align: center;
+    margin-top: 16px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.textdes {
+  text-align: center;
+  color: #0277BD;
+  cursor: pointer;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  span {
+    vertical-align: text-bottom;
+    font-size: 22px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 700;
+    color: #222222;
+  }
+}
+
+.logo {
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+
+  img {
+    width: 150px;
+    margin-right: 8px;
+    .text-gradient();
+  }
+}
+
+.des {
+  text-align: center;
+  cursor: pointer;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 200px;
+    margin-right: 8px;
+    .text-gradient();
+  }
+}
+
+.formContainer {
+  width: 100%;
+}
+
+.formLeft {
+  float: left;
+  display: block;
+  width: 50%;
+}
+
+.formRight {
+  float: right;
+  display: block;
+  width: 50%;
+
+  h3 {
+    font-family: monospace;
+    font-style: normal;
+    font-size: 24px;
+    color: #000000;
+    line-height: 1.2;
+    text-align: left;
+    width: 100%;
+    margin: 10px;
+    display: block;
+  }
+}
+
+.ant-spin-container,
+.ant-spin-nested-loading {
+  height: 100%;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.create {
+  float: right;
+}
+
+// .desc {
+//   font-size: @font-size-base;
+//   color: @text-color-secondary;
+//   // margin-top: 12px;
+//   // margin-bottom: 20px;
+//   margin: auto;
+// }

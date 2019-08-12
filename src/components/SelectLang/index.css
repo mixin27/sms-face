@@ -1,0 +1,28 @@
+.menu {
+    margin-right: 8px;
+    min-width: 160px;
+}
+
+.world-icon {
+    font-size: 20px !important;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color .3s;
+}
+
+.world-icon :hover {
+    color: #83bdf3;
+}
+
+i {
+    font-size: 16px !important;
+    transform: none !important;
+    line-height: 64px;
+}
+
+svg {
+    position: relative;
+    top: -1px;
+
+}

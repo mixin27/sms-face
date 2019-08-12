@@ -1,0 +1,4 @@
+.container > * {
+    width: 100% !important;
+    padding-bottom: 3px;
+}

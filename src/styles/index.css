@@ -1,0 +1,51 @@
+
+.ButtonSize {
+    background-color :#cc3c4e !important;
+    color : white !important;
+    text-transform: none !important;
+    margin: 1px !important;
+}
+
+.ButtonSizeLight {
+    background-color: #eeeeee !important;
+    color : #1890FF !important;
+    text-transform: none !important;
+    margin: 1px !important;
+    border: none !important;
+}
+
+.ButtonLeft {
+    margin-left: 8px
+}
+.CarColor {
+    background-color: #00acc1 !important;
+}
+.CheckBox {
+    font-weight:bold !important;
+    margin-left :10px !important;
+    margin-top: 15px !important;
+}
+.RightButton {
+    text-align:right;
+}
+.ButtonWhite {     
+    background-color : white !important;
+    color : black !important;
+    text-transform: none !important;
+}
+.ExportText{
+    color:#fff !important;
+    text-decoration: none !important;
+}
+.ExcelButton {
+    text-align:right;
+  }
+.Loading {
+    text-align:center;
+    margin-top: 40%;
+}
+.editable-row .ant-form-explain {
+  position: absolute;
+  font-size: 12px;
+  margin-top: 1px;
+}

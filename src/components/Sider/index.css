@@ -1,0 +1,62 @@
+.logo {
+    display: block;
+    width:30px;
+    height: 25px;
+    margin-left: 20px;
+    margin-top: 10px; 
+    pointer-events: none;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url("../../image/LogoSideBar.png") no-repeat;
+}
+/* .logo::after {
+    content: "YaZaHtaNi";
+    color : #00acc1;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 15px;
+    position: absolute;
+ } */
+ /* Hide short text by default (resolution > 1200px) */
+ .short-text { display: none; }
+ .full-text{color: #00acc1; margin-left: 30px; font-size: 20px;font-weight: bold}
+ 
+  /* When resolution <= 1200px, hide short text and show full text */
+ @media (max-width: 1200px) {
+     .short-text { display: inline-block;color: #00acc1; margin-left: 35px ;font-size: 20px;font-weight: bold}
+     .full-text { display: none; }
+ }
+
+ /* .hrColor {
+    margin-top: 0px;
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 2px solid #00acc1;
+    padding: 0; 
+  }
+  .hrEndColor{
+    margin-top: 0px;
+    display: block;
+    height: 10px;
+    border: 0;
+    border-top: 10px solid #00acc1;
+    padding: 0; 
+  } */
+
+  .hrColor {
+    margin-top: 0px;
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 2px solid gray;
+    padding: 0; 
+  }
+  .hrEndColor{
+    margin-top: 0px;
+    display: block;
+    height: 10px;
+    border: 0;
+    border-top: 10px solid gray;
+    padding: 0; 
+  }
