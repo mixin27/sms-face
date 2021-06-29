@@ -1,12 +1,6 @@
-## Service Management System
+# Service Management System - Hyundai
 
-
-
-**Name : ** `sms-face`
-
-**Description : ** Service Management System `Control Panel`
-
-
+Frontend project for `sms`
 
 ## Usage
 
